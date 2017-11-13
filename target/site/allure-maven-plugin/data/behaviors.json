@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "ВКонтакте",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "d5328dc17216c7c8",
+      "title" : "Тест функционала групп",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "904c9f9b3d12ad68",
+        "name" : "Тест функционала групп",
+        "title" : "Тест функционала групп",
+        "time" : {
+          "start" : 1510157039370,
+          "stop" : 1510157078710,
+          "duration" : 39340
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

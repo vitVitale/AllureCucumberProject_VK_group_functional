@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510157039355" stop="1510157078710" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ВКонтакте</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1510157039370" stop="1510157078710" status="passed">
+            <name>Тест функционала групп</name>
+            <title>Тест функционала групп</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1510157047260" stop="1510157050531" status="passed">
+                    <name>Когда Авторизуемся на сайте ВК:</name>
+                    <title>Когда Авторизуемся на сайте ВК:</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="14a30734-9d81-42af-88dd-ffd10fb56485-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157047697" stop="1510157048275" status="passed">
+                            <name>fillFields[      | Телефон или email | vittestovoi@gmail.com |
+      | Пароль            | aplana1234admin       |
+]</name>
+                            <title>Вводим емаил и пароль</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1510157048276" stop="1510157048623" status="passed">
+                            <name>sumbitLogIn</name>
+                            <title>Подтверждаем вход</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157050532" stop="1510157051510" status="passed">
+                    <name>Когда на главное странице выполнено нажатие на раздел групп</name>
+                    <title>Когда на главное странице выполнено нажатие на раздел групп</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="edebacfe-9cf5-4d58-a826-7cdda493a258-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157050533" stop="1510157051066" status="passed">
+                            <name>groupBtn</name>
+                            <title>Выбираем раздел групп и создаем</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157051510" stop="1510157053757" status="passed">
+                    <name>Когда Создание группы с параметрами:</name>
+                    <title>Когда Создание группы с параметрами:</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="1c995b93-7bbb-40e0-a7be-2a93db72ad49-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157051511" stop="1510157053371" status="passed">
+                            <name>groupCreate[      | Название          | apln_test0                    |
+      | Выберите тематику | Сообщество по интере...]</name>
+                            <title>Создаем группу</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157053757" stop="1510157055010" status="passed">
+                    <name>Когда Альбомная составляющая</name>
+                    <title>Когда Альбомная составляющая</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="8815054f-c852-4c4f-9742-50ce46014ea4-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157053759" stop="1510157054604" status="passed">
+                            <name>createAlbum</name>
+                            <title>Создаем Альбом</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157055010" stop="1510157056443" status="passed">
+                    <name>Когда Добавляем описание альбома:</name>
+                    <title>Когда Добавляем описание альбома:</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="528778d3-ce64-4116-8dbe-ecca61cfac83-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157055011" stop="1510157055943" status="passed">
+                            <name>albumCreate[      | Название | Основной                          |
+      | Описание | Главный альбом данного сообщества ...]</name>
+                            <title>Добавляем название и описание</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157056443" stop="1510157059973" status="passed">
+                    <name>Когда Отправляем фото:</name>
+                    <title>Когда Отправляем фото:</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="c022ee05-9a99-47b4-adac-89e0225e7fdb-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157056444" stop="1510157059546" status="passed">
+                            <name>photoGet[      | Первое фото | C:\\Users\\VITALIY\\Desktop\\pic1.jpg |
+      | Второе фото | C:\\Users\\VITALIY\\Desktop...]</name>
+                            <title>Залив фото в альбом</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157059974" stop="1510157060494" status="passed">
+                    <name>Тогда Проверяем наличие 3-х фото в альбоме</name>
+                    <title>Тогда Проверяем наличие 3-х фото в альбоме</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="d64d7252-1655-46aa-ba23-ee64f08048bf-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157059974" stop="1510157060102" status="passed">
+                            <name>checkAlbum</name>
+                            <title>Проверка наличия выгруженных фото</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157060495" stop="1510157068798" status="passed">
+                    <name>Когда Раздел подписчиков и получение всех</name>
+                    <title>Когда Раздел подписчиков и получение всех</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="4d5ee402-53af-441f-a521-cec2b235c380-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157060495" stop="1510157061640" status="passed">
+                            <name>subscribersOfGroup</name>
+                            <title>Жмем на раздел подписчики</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1510157061642" stop="1510157068301" status="passed">
+                            <name>massOfSubs</name>
+                            <title>Получаем всех пользователей</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1510157068798" stop="1510157077390" status="passed">
+                    <name>Когда Запись в файл:</name>
+                    <title>Когда Запись в файл:</title>
+                    <attachments>
+                        <attachment title="Скриншот на каждом шаге" source="30bd4a4b-2ac8-46b6-a10f-0c89f4984db3-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1510157068799" stop="1510157076878" status="passed">
+                            <name>toFillFile[      | Имя файла | SubscribersOfGroup.csv |
+]</name>
+                            <title>Запишем всех пользователей в файл</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Тест функционала групп"/>
+                <label name="feature" value="ВКонтакте"/>
+                <label name="host" value="VITALIY-ПК"/>
+                <label name="thread" value="10068@VITALIY-ПК.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="ВКонтакте"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

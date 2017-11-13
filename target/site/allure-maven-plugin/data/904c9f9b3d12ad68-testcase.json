@@ -1,0 +1,410 @@
+{
+  "uid" : "904c9f9b3d12ad68",
+  "name" : "Тест функционала групп",
+  "title" : "Тест функционала групп",
+  "time" : {
+    "start" : 1510157039370,
+    "stop" : 1510157078710,
+    "duration" : 39340
+  },
+  "summary" : {
+    "attachments" : 9,
+    "steps" : 20
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "26a193bd6596eefa",
+    "name" : "ВКонтакте",
+    "title" : "ВКонтакте"
+  },
+  "steps" : [ {
+    "name" : "Когда Авторизуемся на сайте ВК:",
+    "title" : "Когда Авторизуемся на сайте ВК:",
+    "time" : {
+      "start" : 1510157047260,
+      "stop" : 1510157050531,
+      "duration" : 3271
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "14a30734-9d81-42af-88dd-ffd10fb56485-attachment.png",
+      "type" : "image/png",
+      "size" : 267221,
+      "uid" : "e958b349ee3f4234"
+    } ],
+    "steps" : [ {
+      "name" : "fillFields[      | Телефон или email | vittestovoi@gmail.com |\n      | Пароль            | aplana1234admin       |\n]",
+      "title" : "Вводим емаил и пароль",
+      "time" : {
+        "start" : 1510157047697,
+        "stop" : 1510157048275,
+        "duration" : 578
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "sumbitLogIn",
+      "title" : "Подтверждаем вход",
+      "time" : {
+        "start" : 1510157048276,
+        "stop" : 1510157048623,
+        "duration" : 347
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда на главное странице выполнено нажатие на раздел групп",
+    "title" : "Когда на главное странице выполнено нажатие на раздел групп",
+    "time" : {
+      "start" : 1510157050532,
+      "stop" : 1510157051510,
+      "duration" : 978
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "edebacfe-9cf5-4d58-a826-7cdda493a258-attachment.png",
+      "type" : "image/png",
+      "size" : 106720,
+      "uid" : "a6a9577b467274ed"
+    } ],
+    "steps" : [ {
+      "name" : "groupBtn",
+      "title" : "Выбираем раздел групп и создаем",
+      "time" : {
+        "start" : 1510157050533,
+        "stop" : 1510157051066,
+        "duration" : 533
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Создание группы с параметрами:",
+    "title" : "Когда Создание группы с параметрами:",
+    "time" : {
+      "start" : 1510157051510,
+      "stop" : 1510157053757,
+      "duration" : 2247
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "1c995b93-7bbb-40e0-a7be-2a93db72ad49-attachment.png",
+      "type" : "image/png",
+      "size" : 76817,
+      "uid" : "96b6c8b6a6a4b49a"
+    } ],
+    "steps" : [ {
+      "name" : "groupCreate[      | Название          | apln_test0                    |\n      | Выберите тематику | Сообщество по интере...]",
+      "title" : "Создаем группу",
+      "time" : {
+        "start" : 1510157051511,
+        "stop" : 1510157053371,
+        "duration" : 1860
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Альбомная составляющая",
+    "title" : "Когда Альбомная составляющая",
+    "time" : {
+      "start" : 1510157053757,
+      "stop" : 1510157055010,
+      "duration" : 1253
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "8815054f-c852-4c4f-9742-50ce46014ea4-attachment.png",
+      "type" : "image/png",
+      "size" : 48163,
+      "uid" : "88a92ed5a383bf5b"
+    } ],
+    "steps" : [ {
+      "name" : "createAlbum",
+      "title" : "Создаем Альбом",
+      "time" : {
+        "start" : 1510157053759,
+        "stop" : 1510157054604,
+        "duration" : 845
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Добавляем описание альбома:",
+    "title" : "Когда Добавляем описание альбома:",
+    "time" : {
+      "start" : 1510157055010,
+      "stop" : 1510157056443,
+      "duration" : 1433
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "528778d3-ce64-4116-8dbe-ecca61cfac83-attachment.png",
+      "type" : "image/png",
+      "size" : 41084,
+      "uid" : "d07abe1e386c4564"
+    } ],
+    "steps" : [ {
+      "name" : "albumCreate[      | Название | Основной                          |\n      | Описание | Главный альбом данного сообщества ...]",
+      "title" : "Добавляем название и описание",
+      "time" : {
+        "start" : 1510157055011,
+        "stop" : 1510157055943,
+        "duration" : 932
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Отправляем фото:",
+    "title" : "Когда Отправляем фото:",
+    "time" : {
+      "start" : 1510157056443,
+      "stop" : 1510157059973,
+      "duration" : 3530
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "c022ee05-9a99-47b4-adac-89e0225e7fdb-attachment.png",
+      "type" : "image/png",
+      "size" : 129591,
+      "uid" : "8a20989b233c42e9"
+    } ],
+    "steps" : [ {
+      "name" : "photoGet[      | Первое фото | C:\\\\Users\\\\VITALIY\\\\Desktop\\\\pic1.jpg |\n      | Второе фото | C:\\\\Users\\\\VITALIY\\\\Desktop...]",
+      "title" : "Залив фото в альбом",
+      "time" : {
+        "start" : 1510157056444,
+        "stop" : 1510157059546,
+        "duration" : 3102
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда Проверяем наличие 3-х фото в альбоме",
+    "title" : "Тогда Проверяем наличие 3-х фото в альбоме",
+    "time" : {
+      "start" : 1510157059974,
+      "stop" : 1510157060494,
+      "duration" : 520
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "d64d7252-1655-46aa-ba23-ee64f08048bf-attachment.png",
+      "type" : "image/png",
+      "size" : 145166,
+      "uid" : "9fcb000352b3ab15"
+    } ],
+    "steps" : [ {
+      "name" : "checkAlbum",
+      "title" : "Проверка наличия выгруженных фото",
+      "time" : {
+        "start" : 1510157059974,
+        "stop" : 1510157060102,
+        "duration" : 128
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Раздел подписчиков и получение всех",
+    "title" : "Когда Раздел подписчиков и получение всех",
+    "time" : {
+      "start" : 1510157060495,
+      "stop" : 1510157068798,
+      "duration" : 8303
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "4d5ee402-53af-441f-a521-cec2b235c380-attachment.png",
+      "type" : "image/png",
+      "size" : 578326,
+      "uid" : "82b372123f719a1f"
+    } ],
+    "steps" : [ {
+      "name" : "subscribersOfGroup",
+      "title" : "Жмем на раздел подписчики",
+      "time" : {
+        "start" : 1510157060495,
+        "stop" : 1510157061640,
+        "duration" : 1145
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "massOfSubs",
+      "title" : "Получаем всех пользователей",
+      "time" : {
+        "start" : 1510157061642,
+        "stop" : 1510157068301,
+        "duration" : 6659
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда Запись в файл:",
+    "title" : "Когда Запись в файл:",
+    "time" : {
+      "start" : 1510157068798,
+      "stop" : 1510157077390,
+      "duration" : 8592
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Скриншот на каждом шаге",
+      "source" : "30bd4a4b-2ac8-46b6-a10f-0c89f4984db3-attachment.png",
+      "type" : "image/png",
+      "size" : 578326,
+      "uid" : "e3c7a6901a698760"
+    } ],
+    "steps" : [ {
+      "name" : "toFillFile[      | Имя файла | SubscribersOfGroup.csv |\n]",
+      "title" : "Запишем всех пользователей в файл",
+      "time" : {
+        "start" : 1510157068799,
+        "stop" : 1510157076878,
+        "duration" : 8079
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10068@VITALIY-ПК.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "VITALIY-ПК"
+  }, {
+    "name" : "feature",
+    "value" : "ВКонтакте"
+  }, {
+    "name" : "story",
+    "value" : "Тест функционала групп"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "ВКонтакте"
+  } ],
+  "parameters" : [ ]
+}

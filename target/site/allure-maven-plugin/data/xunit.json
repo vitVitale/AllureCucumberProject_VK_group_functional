@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1510157039370,
+    "stop" : 1510157078710,
+    "duration" : 39340
+  },
+  "testSuites" : [ {
+    "uid" : "26a193bd6596eefa",
+    "name" : "ВКонтакте",
+    "title" : "ВКонтакте",
+    "time" : {
+      "start" : 1510157039370,
+      "stop" : 1510157078710,
+      "duration" : 39340
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "904c9f9b3d12ad68",
+      "name" : "Тест функционала групп",
+      "title" : "Тест функционала групп",
+      "time" : {
+        "start" : 1510157039370,
+        "stop" : 1510157078710,
+        "duration" : 39340
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

@@ -1,0 +1,12 @@
+pages\BasePage.class
+steps\ScenareioSteps.class
+steps\QAallianceSteps.class
+utills\AllureReporer.class
+steps\VKpersonalSteps.class
+steps\VKgroupSteps.class
+steps\VKlogInSteps.class
+steps\BaseSteps.class
+pages\VKpersonalPage.class
+pages\QAalliancePage.class
+pages\VKgroupPage.class
+pages\VKlogInPage.class

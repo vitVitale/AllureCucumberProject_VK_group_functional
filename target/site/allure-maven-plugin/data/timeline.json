@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "VITALIY-ПК",
+    "threads" : [ {
+      "title" : "10068@VITALIY-ПК.main(1)",
+      "testCases" : [ {
+        "uid" : "904c9f9b3d12ad68",
+        "name" : "Тест функционала групп",
+        "title" : "Тест функционала групп",
+        "time" : {
+          "start" : 1510157039370,
+          "stop" : 1510157078710,
+          "duration" : 39340
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
